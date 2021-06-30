@@ -1,0 +1,22 @@
+accept ws-data-gregoriana from date
+move ws-ano of ws-data-gregoriana to ws-ano-f
+move ws-ano of ws-data-gregoriana to ws-ano-f
+
+
+move ws-mes of ws-data-gregoriana to ws-mes-f
+move ws-dia of ws-data-gregoriana to ws-dia-f 
+
+evaluate ws-mes
+
+    when  1  move "janeiro"   to ws-nome-mes
+    when  2  move "fevereiro" to ws-nome-mes
+    when  3  move "marco"     to ws-nome-mes
+    when  4  move "abril"     to ws-nome-mes 
+    when  5  move "maio"      to ws-nome-mes
+    when  6  move "junho"     to ws-nome-mes
+    when  7  move "julho"     to ws-nome-mes
+    when  8  move "agosto"    to-ws-nome-mes
+    when  9  move "setembro"  to-ws-nome-mes
+    when 10  move "outubro"   to-ws-nome-mes
+    when 11  move "novembro"  to-ws-nome-mes
+    when 12  move "dezembro"  to-ws-nome-mes
