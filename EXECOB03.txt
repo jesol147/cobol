@@ -1,0 +1,4 @@
+//GPAZ9901 JOB SEUNOME,MSGCLASS=X,CLASS=C,NOTIFY=&SYSUID,TIME=(0,20)    
+//*****************************************************************     
+//STEP1   EXEC PGM=GPAZ9901                                             
+//STEPLIB DD DSN=GP.GERAL.LOADLIB,DISP=SHR                  
